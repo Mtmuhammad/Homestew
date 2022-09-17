@@ -1,0 +1,83 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.about-text {
+  margin-top: 15rem;
+
+  @include respond(port) {
+    margin-top: 6rem;
+  }
+
+  & h2 {
+    font-size: 4.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-right: 20rem;
+
+    @include respond(port) {
+      padding-right: 0;
+    }
+  }
+
+  & p {
+    font-size: 1.8rem;
+    margin-top: 1.4rem;
+    padding-right: 10rem;
+    color: $icon-hover-grey;
+    line-height: 1.6;
+
+    @include respond(port) {
+      padding-right: 0;
+    }
+  }
+
+  & a {
+    color: #fff;
+    background-color: $primary-green;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $primary-font;
+    }
+  }
+}
+
+.about-images {
+  margin-top: 8rem;
+
+  @include respond(port) {
+    margin-top: 10rem;
+  }
+}
+
+.about-list {
+  margin-top: 3rem;
+  & h2 {
+    font-size: 4.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-right: 5rem;
+  }
+
+  & img {
+    height: 600px;
+  }
+
+  & ul {
+    list-style: none;
+    padding-left: 0;
+
+    & li {
+      font-size: 2rem;
+      margin: 1.5rem 0;
+      border-left: 4px solid $primary-green;
+      padding-left: 0.5rem;
+      color: $icon-hover-grey;
+    }
+  }
+}

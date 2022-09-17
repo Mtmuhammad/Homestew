@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-6 col-sm-4 "
+  >
+    <img
+      alt="About"
+      class="mb-4 about-img img-fluid"
+      src="About1.jpg"
+    />
+  </div>
+</DocumentFragment>
+`;

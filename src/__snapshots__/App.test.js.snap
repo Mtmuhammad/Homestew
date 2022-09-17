@@ -134,7 +134,7 @@ exports[`smoke and snapshot tests should match snapshot 1`] = `
             >
               <a
                 aria-current="page"
-                class="nav-link active"
+                class="active nav-link"
                 href="/"
               >
                 HOME

@@ -1,0 +1,46 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.testimonials {
+  margin-top: 8rem;
+
+  & img {
+    height: 150px;
+    width: 150px;
+
+    @include respond(xsphone) {
+      height: 120px;
+      width: 120px;
+    }
+    @include respond(tiny) {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  & h3 {
+    font-size: 4.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  & h5 {
+    font-size: 3.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  & h6 {
+   font-size: 2rem;
+   color: $primary-green;
+   letter-spacing: 0.03em;
+ }
+  & p {
+    font-size: 1.8rem;
+    margin-top: 1.4rem;
+    line-height: 1.6;
+  }
+  & .fa-quote-left {
+   color: $primary-green;
+  }
+}

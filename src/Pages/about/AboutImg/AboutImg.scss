@@ -1,0 +1,13 @@
+@use "../../../Styles/abstracts/mixins" as *;
+
+.about-img {
+   height: 170px;
+   border-radius: 5px;
+
+   @include respond(xsphone) {
+      height: 150px;
+   }
+   @include respond(tiny) {
+      height: 135px;
+   }
+}

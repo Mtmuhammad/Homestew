@@ -11,6 +11,8 @@ const Navbar = () => {
     btn.classList.add("collapsed");
     btn.ariaExpanded = "false";
   };
+  let activeClassName = "active nav-link";
+  let inactiveClassName = "nav-link";
   return (
     <nav>
       <TopBar />
@@ -63,11 +65,12 @@ const Navbar = () => {
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
+                end
                   reloadDocument
                   onClick={handleCollapse}
                   to="/"
                   className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
+                    isActive ? activeClassName : inactiveClassName
                   }
                 >
                   HOME
@@ -79,7 +82,7 @@ const Navbar = () => {
                   onClick={handleCollapse}
                   to="about"
                   className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
+                    isActive ? activeClassName : inactiveClassName
                   }
                 >
                   ABOUT
@@ -91,7 +94,7 @@ const Navbar = () => {
                   onClick={handleCollapse}
                   to="search"
                   className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
+                    isActive ? activeClassName : inactiveClassName
                   }
                 >
                   RECIPES
@@ -103,7 +106,7 @@ const Navbar = () => {
                   onClick={handleCollapse}
                   to="diets"
                   className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
+                    isActive ? activeClassName : inactiveClassName
                   }
                 >
                   DIETS
@@ -115,7 +118,7 @@ const Navbar = () => {
                   onClick={handleCollapse}
                   to="blog"
                   className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
+                    isActive ? activeClassName : inactiveClassName
                   }
                 >
                   BLOG
@@ -127,7 +130,7 @@ const Navbar = () => {
                   onClick={handleCollapse}
                   to="contact"
                   className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
+                    isActive ? activeClassName : inactiveClassName
                   }
                 >
                   CONTACT

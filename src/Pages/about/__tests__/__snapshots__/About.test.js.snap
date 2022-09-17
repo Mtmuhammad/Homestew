@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container about"
+    style="max-width: 1100px;"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-12 col-lg-6"
+        >
+          <div
+            class="about-text text-center text-lg-start"
+          >
+            <h2>
+              What Are We About
+            </h2>
+            <p>
+              Homestew was created to help users connect through the power and joy of food while experiencing the COVID-19 pandemic. We strive to be all families' best friends in food and are committed to teaching, inspiring, and empowering the every day foodie!
+            </p>
+            <div
+              class="mt-5 about-btn"
+            >
+              <a
+                href="/search"
+              >
+                Explore Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-6 mb-5"
+        >
+          <div
+            class="about-images text-center"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-6 col-sm-4 "
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About1.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 "
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About2.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 "
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About3.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 "
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About4.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 d-none d-sm-block"
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About5.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 d-none d-sm-block"
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About6.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 d-none d-sm-block"
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About7.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 d-none d-sm-block"
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About8.jpg"
+                />
+              </div>
+              <div
+                class="col-6 col-sm-4 d-none d-sm-block"
+              >
+                <img
+                  alt="About"
+                  class="mb-4 about-img img-fluid"
+                  src="About9.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-none d-lg-flex row"
+          style="margin-top: 8rem; margin-bottom: 6rem;"
+        >
+          <div
+            class="d-none d-lg-block col-12 col-lg-6"
+          >
+            <div
+              class="text-center"
+            >
+              <img
+                alt="Sushi"
+                class="img-fluid"
+                src="Culinary.jpg"
+              />
+            </div>
+          </div>
+          <div
+            class="d-none d-lg-block ps-5 about-list col-12 col-lg-6 text-center text-lg-start"
+          >
+            <h2>
+              Improve Your Culinary Skills
+            </h2>
+            <ul>
+              <li>
+                Learn new recipes
+              </li>
+              <li>
+                Experiment with foods
+              </li>
+              <li>
+                Live a healthier lifestyle
+              </li>
+              <li>
+                Understand nutrition facts
+              </li>
+              <li>
+                Get cooking tips
+              </li>
+              <li>
+                Eat wholesome meals
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="testimonials"
+        >
+          <div
+            class="row d-flex justify-content-center"
+          >
+            <div
+              class="col-md-10 col-xl-8 text-center"
+            >
+              <h3
+                class="mb-4"
+              >
+                Testimonials
+              </h3>
+              <p
+                class="mb-5 pb-2 mb-md-5 pb-md-0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.
+              </p>
+            </div>
+          </div>
+          <div
+            class="row text-center"
+            style="margin-top: 3rem; margin-bottom: 15rem;"
+          >
+            <div
+              class="col-md-4 mt-5 mb-5 mb-md-0"
+            >
+              <div
+                class="d-flex justify-content-center mb-4"
+              >
+                <img
+                  alt="Tim Perry"
+                  class="rounded-circle shadow-1-strong"
+                  src="https://randomuser.me/api/portraits/men/80.jpg"
+                />
+              </div>
+              <h5
+                class="mb-3"
+              >
+                Tim Perry
+              </h5>
+              <h6
+                class="mb-3"
+              >
+                Web Developer
+              </h6>
+              <p
+                class="px-xl-3"
+              >
+                <i
+                  class="fas fa-quote-left pe-2"
+                />
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul
+                class="list-unstyled d-flex justify-content-center mb-0"
+              >
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star-half-alt fa-lg text-warning"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-4 mb-5 mb-md-0"
+            >
+              <div
+                class="d-flex mt-5 justify-content-center mb-4"
+              >
+                <img
+                  alt="Letitia Powell"
+                  class="rounded-circle shadow-1-strong"
+                  src="https://randomuser.me/api/portraits/women/75.jpg"
+                />
+              </div>
+              <h5
+                class="mb-3"
+              >
+                Letitia Powell
+              </h5>
+              <h6
+                class="mb-3"
+              >
+                Graphic Designer
+              </h6>
+              <p
+                class="px-xl-3"
+              >
+                <i
+                  class="fas fa-quote-left pe-2"
+                />
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul
+                class="list-unstyled d-flex justify-content-center mb-0"
+              >
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-4 mb-0"
+            >
+              <div
+                class="d-flex mt-5 justify-content-center mb-4"
+              >
+                <img
+                  alt="John Smith"
+                  class="rounded-circle shadow-1-strong"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                />
+              </div>
+              <h5
+                class="mb-3"
+              >
+                John Smith
+              </h5>
+              <h6
+                class="mb-3"
+              >
+                Marketing Specialist
+              </h6>
+              <p
+                class="px-xl-3"
+              >
+                <i
+                  class="fas fa-quote-left pe-2"
+                />
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul
+                class="list-unstyled d-flex justify-content-center mb-0"
+              >
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="fas fa-star fa-lg text-warning"
+                  />
+                </li>
+                <li>
+                  <i
+                    class="far fa-star fa-lg text-warning"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
