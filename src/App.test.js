@@ -22,12 +22,12 @@ describe("smoke and snapshot tests", () => {
   });
 });
 
-// test("should render home component on initial render", async () => {
-//   render(
-//     <BrowserRouter>
-//       <App />
-//     </BrowserRouter>
-//   );
-//   const homeComponent = screen.getByTestId("home");
-//   expect(homeComponent).toBeInTheDocument();
-// });
+test("should render home component on initial render", async () => {
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+  const homeComponent = screen.getByTestId("home");
+  expect(homeComponent).toBeInTheDocument();
+});

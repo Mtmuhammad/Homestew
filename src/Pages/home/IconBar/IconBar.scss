@@ -1,0 +1,42 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.icon-bar {
+  height: auto;
+  background-color: $light-primary-green;
+  padding: 50px 0;
+
+  .icon {
+    margin-top: 3rem;
+
+    & a {
+      text-decoration: none;
+      color: $primary-font;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $primary-green;
+      }
+
+      & p {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.15em;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  & i {
+    font-size: 13rem;
+    color: white;
+    background-color: $primary-green;
+    padding: 30px;
+    border-radius: 50%;
+
+    @include respond(xsphone) {
+      padding: 20px;
+    }
+  }
+}

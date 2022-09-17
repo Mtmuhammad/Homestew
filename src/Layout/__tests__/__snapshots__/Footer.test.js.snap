@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="footer"
+  >
+    <div
+      class="container-fluid"
+    >
+      <div
+        class="footer-instagram"
+      >
+        <div
+          class="footer-instagram-avatar"
+        >
+          <div
+            class="footer-instagram-avatar-pic"
+          >
+            <img
+              alt="Instagram Avatar"
+              src="avatar.jpg"
+            />
+          </div>
+          <div
+            class="footer-instagram-avatar-text"
+          >
+            <h5>
+              @homestew
+            </h5>
+            <span>
+              22,5k followers
+            </span>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-6 col-sm-4 col-md-2"
+          >
+            <img
+              alt="Instagram post"
+              class="img-fluid instagram-post"
+              src="Instagram1.jpg"
+            />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-2"
+          >
+            <img
+              alt="Instagram post"
+              class="img-fluid instagram-post"
+              src="Instagram2.jpg"
+            />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-2"
+          >
+            <img
+              alt="Instagram post"
+              class="img-fluid instagram-post"
+              src="Instagram3.jpg"
+            />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-2"
+          >
+            <img
+              alt="Instagram post"
+              class="img-fluid instagram-post"
+              src="Instagram4.jpg"
+            />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-2"
+          >
+            <img
+              alt="Instagram post"
+              class="img-fluid instagram-post"
+              src="Instagram5.jpg"
+            />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-2"
+          >
+            <img
+              alt="Instagram post"
+              class="img-fluid instagram-post"
+              src="Instagram6.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-12"
+        >
+          <div
+            class="footer-text"
+          >
+            <div
+              class="footer-logo"
+            >
+              <a
+                href="/"
+              >
+                <img
+                  alt="Footer alt logo"
+                  class="img-fluid mb-4"
+                  src="./Homestew-alt-logo.svg"
+                />
+              </a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            </p>
+            <div
+              class="footer-social mb-5"
+            >
+              <a
+                href="#0"
+              >
+                <i
+                  class="fa fa-facebook"
+                  data-testid="footer-icon"
+                />
+              </a>
+              <a
+                href="#0"
+              >
+                <i
+                  class="fa fa-twitter"
+                  data-testid="footer-icon"
+                />
+              </a>
+              <a
+                href="#0"
+              >
+                <i
+                  class="fa fa-instagram"
+                  data-testid="footer-icon"
+                />
+              </a>
+              <a
+                href="#0"
+              >
+                <i
+                  class="fa fa-youtube-play"
+                  data-testid="footer-icon"
+                />
+              </a>
+              <a
+                href="#0"
+              >
+                <i
+                  class="fa fa-envelope-o"
+                  data-testid="footer-icon"
+                />
+              </a>
+            </div>
+            <div
+              class="footer-copyright"
+            >
+              <p
+                class="mb-0"
+              >
+                Copyright © 2022 All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

@@ -1,0 +1,40 @@
+@use "../../Styles/abstracts/mixins" as *;
+@use "../../Styles/abstracts/variables" as *;
+
+.small-post {
+  &-img img {
+    height: 250px;
+    border-radius: 5px;
+    transition: all 0.2s;
+
+    @include respond(sport) {
+      height: 200px;
+    }
+    @include respond(sphone) {
+      height: 180px;
+    }
+    @include respond(tiny) {
+      height: 160px;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 13px 7px rgba(151, 151, 151, 0.552);
+      transform: scale(1.01);
+    }
+  }
+
+  &-content {
+    font-size: 2.2rem;
+  }
+
+  & h4 {
+    transition: all 0.3s;
+  }
+}
+a {
+  text-decoration: none;
+
+  &:hover h4 {
+    color: $primary-green;
+  }
+}

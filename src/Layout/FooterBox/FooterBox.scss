@@ -1,0 +1,27 @@
+@use "../../Styles/abstracts/mixins" as *;
+@use "../../Styles/abstracts/variables" as *;
+
+.instagram-post {
+  height: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  @include respond(land) {
+    height: 280px;
+  }
+  @include respond(port) {
+    height: 240px;
+  }
+  @include respond(sport) {
+    height: 300px;
+  }
+  @include respond(sphone) {
+    height: 255px;
+  }
+  @include respond(xsphone) {
+    height: 200px;
+  }
+  @include respond(tiny) {
+    height: 170px;
+  }
+}

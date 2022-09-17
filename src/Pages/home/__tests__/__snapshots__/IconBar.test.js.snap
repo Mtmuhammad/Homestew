@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="icon-bar"
+  >
+    <div
+      class="container"
+      style="max-width: 1100px;"
+    >
+      <div
+        class="row"
+      >
+        <h3
+          class="tertiary text-center"
+        >
+          Explore Recipes:
+        </h3>
+        <div
+          class="col-6 col-lg-3"
+        >
+          <div
+            class="icon text-center"
+            data-testid="icon-container"
+          >
+            <a
+              href="/recipes/type/bread"
+            >
+              <i
+                class="fa-solid fa-bread-slice"
+                data-testid="icon"
+              />
+              <p>
+                Bread Recipes
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-6 col-lg-3"
+        >
+          <div
+            class="icon text-center"
+            data-testid="icon-container"
+          >
+            <a
+              href="/recipes/type/main course"
+            >
+              <i
+                class="fa-solid fa-drumstick-bite"
+                data-testid="icon"
+              />
+              <p>
+                Main Course
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-6 col-lg-3"
+        >
+          <div
+            class="icon text-center"
+            data-testid="icon-container"
+          >
+            <a
+              href="/recipes/type/side dish"
+            >
+              <i
+                class="fa-solid fa-bowl-food"
+                data-testid="icon"
+              />
+              <p>
+                Side Dishes
+              </p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-6 col-lg-3"
+        >
+          <div
+            class="icon text-center"
+            data-testid="icon-container"
+          >
+            <a
+              href="/recipes/type/dessert"
+            >
+              <i
+                class="fa-solid fa-cookie"
+                data-testid="icon"
+              />
+              <p>
+                Desserts
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

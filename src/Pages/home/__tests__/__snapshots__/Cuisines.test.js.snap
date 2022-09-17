@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="cuisines container"
+    style="max-width: 1100px; margin-top: 10rem; margin-bottom: 10rem;"
+  >
+    <div
+      class="container"
+    >
+      <h3
+        class="tertiary"
+        style="margin-bottom: 2rem;"
+      >
+         recipes 
+        <i
+          class="fa-solid fa-utensils"
+          style="font-size: 3rem;"
+        />
+      </h3>
+      <div
+        class="row"
+      />
+      <div
+        class="more text-center mt-5"
+      >
+        <a
+          href="/recipes/category/undefined"
+        >
+          More  recipes
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,129 @@
+@use "../../Styles/abstracts/mixins" as *;
+@use "../../Styles/abstracts/variables" as *;
+
+.footer {
+  background: $light-primary-green;
+  padding-top: 20px;
+
+  &-copyright {
+    font-size: 1.5rem;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    padding: 30px 0 25px;
+
+    @include respond(xsphone) {
+      padding: 20px 0 15px;
+    }
+
+    & p {
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  &-social a {
+    color: $primary-font;
+    display: inline-block;
+    font-size: 1.6rem;
+    height: 46px;
+    width: 46px;
+    background: #e7e7e7;
+    border-radius: 50%;
+    line-height: 46px;
+    text-align: center;
+    transition: all, 0.3s;
+    margin-right: 6px;
+
+    &:hover {
+      background: $primary-green;
+      color: white;
+    }
+  }
+
+  &-logo {
+    margin-bottom: 10px;
+
+    & img {
+      height: 8rem;
+    }
+  }
+
+  &-instagram {
+    padding: 0 15px;
+    position: relative;
+
+    &-avatar {
+      display: inline-block;
+      padding: 20px 30px;
+      background: white;
+      position: absolute;
+      height: 90px;
+      width: 240px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-120px, -50px);
+      z-index: 1;
+
+      @include respond(port) {
+        padding: 20px;
+      }
+      @include respond(xsphone) {
+        height: 70px;
+      }
+
+      &-pic {
+        float: left;
+        margin-right: 15px;
+
+        & img {
+          height: 5rem;
+          width: 5rem;
+          border-radius: 50%;
+        }
+      }
+
+      &-text {
+        overflow: hidden;
+
+        & h5 {
+          font-size: 2.2rem;
+          font-weight: 700;
+          margin-bottom: 5px;
+        }
+
+        & span {
+          font-size: 1.6rem;
+          color: $icon-hover-grey;
+        }
+      }
+    }
+  }
+
+  &-text {
+    padding-top: 50px;
+    text-align: center;
+
+    @include respond(xsphone) {
+      padding-top: 25px;
+    }
+
+    & p {
+      font-size: 1.7rem;
+      margin-bottom: 30px;
+      padding: 0 26rem;
+
+      @include respond(land) {
+        padding: 0 20rem;
+      }
+
+      @include respond(port) {
+        padding: 0 10rem;
+      }
+      @include respond(sport) {
+        padding: 0;
+      }
+    }
+  }
+}

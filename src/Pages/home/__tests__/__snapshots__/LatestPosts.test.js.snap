@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="latest-recipes container mt-5"
+    style="max-width: 1100px;"
+  >
+    <div
+      class="container"
+    >
+      <h2
+        class="secondary mb-4"
+      >
+        Latest recipes 
+        <i
+          class="fa-solid fa-utensils"
+        />
+      </h2>
+      <div
+        class="row"
+      >
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center post"
+          >
+            <div
+              class="post-img"
+            >
+              <img
+                alt="Tomato Soup"
+                class="img-fluid"
+                src="tomatoSoup.jpg"
+              />
+              <div
+                class="category"
+              >
+                <span>
+                  Gluten Free
+                </span>
+              </div>
+            </div>
+            <div
+              class="post-content"
+            >
+              <h2>
+                Easy Tomato Soup
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                Easy Tomato Soup is a 
+                <b>
+                  gluten free, lacto ovo vegetarian, and primal
+                </b>
+                 recipe with 2 servings. One serving contains 
+                <b>
+                  299 calories
+                </b>
+                , 
+                <b>
+                  4g of protein
+                </b>
+                , and 
+                <b>
+                  23g of fat
+                </b>
+                . For 
+                <b>
+                  $2.09 per serving
+                </b>
+                , this recipe 
+                <b>
+                  covers 14%
+                </b>
+                 of your daily requirements of vitamins and minerals...
+              </p>
+            </div>
+            <div
+              class="more text-center mt-5"
+            >
+              <a
+                href="/recipes/1674265"
+              >
+                Continue Reading ⇢
+              </a>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center post"
+          >
+            <div
+              class="post-img"
+            >
+              <img
+                alt="Crispy Sweet Sticky Spicy Wings"
+                class="img-fluid"
+                src="chickenWings.jpg"
+              />
+              <div
+                class="category"
+              >
+                <span>
+                  Appetizer
+                </span>
+              </div>
+            </div>
+            <div
+              class="post-content"
+            >
+              <h2>
+                Sweet Sticky Spicy Wings
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                The recipe Crispy Sweet Sticky Spicy Wings can be made 
+                <b>
+                  in around about 45 minutes
+                </b>
+                . One serving contains 
+                <b>
+                  600 calories
+                </b>
+                , 
+                <b>
+                  30g of protein
+                </b>
+                , and 
+                <b>
+                  24g of fat
+                </b>
+                . This recipe serves 6. For 
+                <b>
+                  $1.85 per serving
+                </b>
+                , this recipe 
+                <b>
+                  covers 20%
+                </b>
+                 of your daily requirements of...
+              </p>
+            </div>
+            <div
+              class="more text-center mt-5"
+            >
+              <a
+                href="/recipes/640841"
+              >
+                Continue Reading ⇢
+              </a>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center post"
+          >
+            <div
+              class="post-img"
+            >
+              <img
+                alt="black bean and veggie burgers with corn salsa"
+                class="img-fluid"
+                src="veggieBurger.jpg"
+              />
+              <div
+                class="category"
+              >
+                <span>
+                  Vegetarian
+                </span>
+              </div>
+            </div>
+            <div
+              class="post-content"
+            >
+              <h2>
+                Black Bean Veggie Burgers
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                Forget going out to eat or ordering takeout every time you crave American food. Try making Just Julie’s BBQ Spicy Black Bean Burgers at home. Watching your figure? This gluten free and dairy free recipe has 
+                <b>
+                  194 calories
+                </b>
+                , 
+                <b>
+                  7g of protein
+                </b>
+                , and 
+                <b>
+                  8g of fat
+                </b>
+                 per serving. This recipe serves...
+              </p>
+            </div>
+            <div
+              class="more text-center mt-5"
+            >
+              <a
+                href="/recipes/648663"
+              >
+                Continue Reading ⇢
+              </a>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center post"
+          >
+            <div
+              class="post-img"
+            >
+              <img
+                alt="Chicken and Miso Ramen noodle soup"
+                class="img-fluid"
+                src="misoRamen.jpg"
+              />
+              <div
+                class="category"
+              >
+                <span>
+                  Chicken
+                </span>
+              </div>
+            </div>
+            <div
+              class="post-content"
+            >
+              <h2>
+                Chicken and Miso Ramen
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                The recipe Chicken and Miso Ramen Noodle Soup is ready 
+                <b>
+                  in approximately 30 minutes
+                </b>
+                 and is definitely an awesome 
+                <b>
+                  dairy free
+                </b>
+                 option for lovers of Japanese food. One serving contains 
+                <b>
+                  616 calories
+                </b>
+                , 
+                <b>
+                  43g of protein
+                </b>
+                , and 
+                <b>
+                  14g of fat
+                </b>
+                . For 
+                <b>
+                  $3.46 per serving
+                </b>
+                , this recipe 
+                <b>
+                  covers 34%
+                </b>
+                 of...
+              </p>
+            </div>
+            <div
+              class="more text-center mt-5"
+            >
+              <a
+                href="/recipes/637908"
+              >
+                Continue Reading ⇢
+              </a>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center post"
+          >
+            <div
+              class="post-img"
+            >
+              <img
+                alt="Chocolate Chip Cookies"
+                class="img-fluid"
+                src="chocolateChip.jpg"
+              />
+              <div
+                class="category"
+              >
+                <span>
+                  Dessert
+                </span>
+              </div>
+            </div>
+            <div
+              class="post-content"
+            >
+              <h2>
+                Chocolate Chip Cookies
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                Chocolate Chip Cookies might be just the dessert you are searching for. For 
+                <b>
+                  $1.52 per serving
+                </b>
+                , this recipe 
+                <b>
+                  covers 15%
+                </b>
+                 of your daily requirements of vitamins and minerals. This recipe makes 6 servings with 
+                <b>
+                  932 calories
+                </b>
+                , 
+                <b>
+                  9g of protein
+                </b>
+                , and 
+                <b>
+                  49g of fat
+                </b>
+                 each. 892 people were impressed...
+              </p>
+            </div>
+            <div
+              class="more text-center mt-5"
+            >
+              <a
+                href="/recipes/637822"
+              >
+                Continue Reading ⇢
+              </a>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center post"
+          >
+            <div
+              class="post-img"
+            >
+              <img
+                alt="Shrimp Fried Rice"
+                class="img-fluid"
+                src="friedRice.jpg"
+              />
+              <div
+                class="category"
+              >
+                <span>
+                  Pescatarian
+                </span>
+              </div>
+            </div>
+            <div
+              class="post-content"
+            >
+              <h2>
+                Shrimp Fried Rice
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                The recipe Shrimp Fried Rice is ready 
+                <b>
+                  in roughly 45 minutes
+                </b>
+                 and is definitely a super 
+                <b>
+                  gluten free and pescatarian
+                </b>
+                 option for lovers of Chinese food. For 
+                <b>
+                  $1.36 per serving
+                </b>
+                , you get a main course that serves 4. One serving contains 
+                <b>
+                  400 calories
+                </b>
+                , 
+                <b>
+                  16g of protein
+                </b>
+                , and 
+                <b>
+                  8g of fat
+                </b>
+                . Not a lot...
+              </p>
+            </div>
+            <div
+              class="more text-center mt-5"
+            >
+              <a
+                href="/recipes/682619"
+              >
+                Continue Reading ⇢
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

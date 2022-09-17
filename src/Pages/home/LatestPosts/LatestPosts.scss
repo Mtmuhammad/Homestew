@@ -1,0 +1,62 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.latest-recipes {
+  & .fa-utensils {
+    color: $tertiary-color;
+    font-size: 3.8rem;
+    margin-left: 1rem;
+  }
+
+  & img {
+    height: 52rem !important;
+    border-radius: 5px;
+
+    @include respond(sport) {
+      height: 42rem !important;
+    }
+  }
+
+  & .category {
+    margin-top: -25px;
+    margin-bottom: 25px;
+
+    @include respond(phone) {
+      margin-top: -20px;
+    }
+    @include respond(sphone) {
+      margin-top: -18px;
+    }
+    @include respond(xsphone) {
+      margin-top: -16px;
+    }
+
+    & span {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      background-color: #fff;
+      padding: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: $icon-hover-grey;
+    }
+  }
+}
+
+.post {
+  margin-bottom: 5rem;
+  &-content {
+    text-align: center;
+    & h2 {
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+      margin: 2rem 0;
+    }
+
+    & p {
+      line-height: 1.7;
+      font-weight: 400;
+      font-size: 1.7rem;
+    }
+  }
+}
