@@ -1,0 +1,78 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.contact {
+  @include respond(sphone) {
+    padding: 4rem 0px;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 21px 41px -13px rgb(0 0 0 / 18%);
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact-wrap {
+  background-color: #fff;
+  & h3 {
+    font-size: 3rem;
+  }
+
+  & p {
+    font-size: 1.7rem;
+  }
+
+  & .text {
+    width: 100%;
+
+    & span {
+      color: rgba(0, 0, 0, 0.2);
+      display: block;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    & a {
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+.contactForm {
+  & .form-control {
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    height: 40px;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+
+  & a {
+    color: #fff;
+    background-color: $primary-green;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $primary-font;
+    }
+  }
+}

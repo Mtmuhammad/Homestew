@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="row justify-content-center"
+    >
+      <div
+        class="col-md-12"
+      >
+        <div
+          class="wrapper"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-lg-6"
+            >
+              <div
+                class="contact-wrap w-100 p-md-5 p-4"
+              >
+                <h3
+                  class="mb-3"
+                >
+                  Contact Us
+                </h3>
+                <p
+                  class="mb-4"
+                >
+                  We're open for any suggestion or just to have a chat
+                </p>
+                <div
+                  class="row mb-4"
+                >
+                  <div
+                    class="col-md-4"
+                  >
+                    <div
+                      class="w-100 d-flex align-items-start"
+                    >
+                      <div
+                        class="text"
+                      >
+                        <p>
+                          <span>
+                            Address:
+                          </span>
+                           198 West 21th Street, Suite 721 New York NY 10016
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-4"
+                  >
+                    <div
+                      class="w-100 d-flex align-items-start"
+                    >
+                      <div
+                        class="text"
+                      >
+                        <p>
+                          <span>
+                            Email:
+                          </span>
+                           
+                          <a
+                            href="mailto:info@yoursite.com"
+                          >
+                            info@homestew.com
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-4"
+                  >
+                    <div
+                      class="w-100 d-flex align-items-start"
+                    >
+                      <div
+                        class="text"
+                      >
+                        <p>
+                          <span>
+                            Phone:
+                          </span>
+                           
+                          <a
+                            href="tel://1234567920"
+                          >
+                            (646)123-7654
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form
+                  class="contactForm"
+                  id="contactForm"
+                  method="POST"
+                  name="contactForm"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="form-group"
+                      >
+                        <input
+                          class="form-control"
+                          id="name"
+                          name="name"
+                          placeholder="Name"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="form-group"
+                      >
+                        <input
+                          class="form-control"
+                          id="email"
+                          name="email"
+                          placeholder="Email"
+                          type="email"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="form-group"
+                      >
+                        <input
+                          class="form-control"
+                          id="subject"
+                          name="subject"
+                          placeholder="Subject"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="form-group"
+                      >
+                        <textarea
+                          class="form-control mb-5 mt-2"
+                          cols="30"
+                          id="message"
+                          name="message"
+                          placeholder="Create a message here"
+                          rows="4"
+                          style="height: 100px;"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-12"
+                    >
+                      <div
+                        class="form-group text-center text-lg-start"
+                      >
+                        <a
+                          href="#0"
+                        >
+                          Send Message
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-none d-lg-flex align-items-stretch"
+            >
+              <div
+                class="info-wrap w-100 p-5 img"
+                style="background: url(Contact.jpg); background-size: cover;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
