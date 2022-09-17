@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="topbar"
+  >
+    <div
+      class="container d-flex justify-content-between"
+    >
+      <div
+        class="socials"
+        style="margin-left: 15px;"
+      >
+        <a
+          data-testid="social-icon"
+          href="#0"
+        >
+          <i
+            class="fa-brands fa-twitter"
+          />
+        </a>
+        <a
+          data-testid="social-icon"
+          href="#0"
+        >
+          <i
+            class="fa-solid fa-rss"
+          />
+        </a>
+        <a
+          data-testid="social-icon"
+          href="#0"
+        >
+          <i
+            class="fa-brands fa-facebook"
+          />
+        </a>
+        <a
+          data-testid="social-icon"
+          href="#0"
+        >
+          <i
+            class="fa-brands fa-pinterest"
+          />
+        </a>
+        <a
+          data-testid="social-icon"
+          href="#0"
+        >
+          <i
+            class="fa-brands fa-instagram"
+          />
+        </a>
+        <a
+          data-testid="social-icon"
+          href="#0"
+        >
+          <i
+            class="fa-brands fa-youtube"
+          />
+        </a>
+      </div>
+      <div
+        class="socials"
+      >
+        <a
+          data-testid="user-icon"
+          href="/search"
+        >
+          <i
+            class="fa-solid fa-magnifying-glass"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

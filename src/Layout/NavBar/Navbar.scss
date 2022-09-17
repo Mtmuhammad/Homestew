@@ -1,0 +1,146 @@
+@use "../../Styles/abstracts/mixins" as *;
+@use "../../Styles/abstracts/variables" as *;
+
+
+.logo {
+  height: 130px;
+
+  &-alt {
+    margin-left: 15px;
+    height: 40px;
+
+    @include respond(sphone) {
+      height: 35px;
+    }
+    @include respond(xsphone) {
+      height: 30px;
+    }
+  }
+}
+
+.navbar-toggler {
+  font-size: 2.25rem;
+}
+
+.dropdown-toggle::after {
+  border: none;
+}
+
+.dropdown-toggle {
+  text-align: center;
+
+  & li {
+    text-align: center;
+  }
+}
+
+.dropdown-menu {
+  padding: 1rem;
+  background-color: $primary-green;
+  font-size: 1.4rem;
+  opacity: 0.9;
+
+  & .dropdown-item {
+    text-align: center;
+    font-size: 1.5rem;
+
+    &:active {
+      background-color: $link-white;
+      color: $primary-green;
+    }
+  }
+}
+
+.navbar-nav {
+  @include respond(port) {
+    background-color: rgba(128, 128, 128, 0.045);
+  }
+}
+
+.nav-item {
+  font-size: 2.1rem;
+  margin-right: 10px;
+  font-weight: bold;
+  @include respond(port) {
+    margin: 0 auto;
+  }
+
+  & > .active {
+    &::after {
+      content: "";
+      border-bottom: 2px solid $primary-green;
+      width: 100%;
+      display: block;
+
+      @include respond(port) {
+        width: 0;
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.nav-link {
+  position: relative;
+  &.active {
+    @include respond(port) {
+      color: $primary-green !important;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: $primary-green;
+    height: 2px;
+    transition: all 0.3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+    @include respond(port) {
+      width: 0;
+    }
+  }
+}
+
+hr {
+  margin: 0;
+  margin-top: 10px !important;
+  border: 0;
+  opacity: 1;
+  background-color: #fff;
+  border-top: 2px dotted #a8ba9a86;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+.slideIn {
+  animation-name: slideIn;
+}
+
+.animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}
