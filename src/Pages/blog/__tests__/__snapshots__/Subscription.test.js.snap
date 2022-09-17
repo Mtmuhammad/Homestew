@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="subscription my-5 p-5"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="content text-lg-start text-center col-12 col-lg-6"
+      >
+        <h3>
+          Want to get weekly tips and tricks?
+        </h3>
+        <p
+          role="paragraph"
+        >
+          Sign up and receive your first email guide!
+        </p>
+      </div>
+      <div
+        class="sub align-items-center d-block d-lg-flex col-12 text-lg-end text-center col-lg-6"
+      >
+        <input
+          class="mb-4 mb-lg-0"
+          name="email"
+          placeholder="Your Email"
+          type="email"
+        />
+        <a
+          href="#0"
+        >
+          Subscribe
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

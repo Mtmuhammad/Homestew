@@ -1,0 +1,1029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container blog my-5"
+    style="max-width: 1100px;"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <h2
+          class="secondary mb-4"
+        >
+          Latest Posts 
+          <i
+            class="fa-solid fa-utensils"
+          />
+        </h2>
+        <div
+          class="text-center mb-5 sm-blog-post col-12 col-md-6 col-lg-4"
+        >
+          <img
+            alt="The Travelers Guide for Foodies"
+            class="img-fluid"
+            src="Sm1.jpg"
+          />
+          <div
+            class="sm-blog-text text-light"
+          >
+            <p
+              class="my-4"
+              role="paragraph"
+            >
+              travel
+            </p>
+            <h4>
+              The Travelers Guide for Foodies
+            </h4>
+            <a
+              href="#0"
+            >
+              Read More
+            </a>
+          </div>
+        </div>
+        <div
+          class="text-center mb-5 sm-blog-post col-12 col-md-6 col-lg-4"
+        >
+          <img
+            alt="Tips to Start Your Indoor Garden"
+            class="img-fluid"
+            src="Sm2.jpg"
+          />
+          <div
+            class="sm-blog-text text-light"
+          >
+            <p
+              class="my-4"
+              role="paragraph"
+            >
+              GardeNing
+            </p>
+            <h4>
+              Tips to Start Your Indoor Garden
+            </h4>
+            <a
+              href="#0"
+            >
+              Read More
+            </a>
+          </div>
+        </div>
+        <div
+          class="text-center mb-5 sm-blog-post col-12 col-md-6 col-lg-4"
+        >
+          <img
+            alt="Budget Planning for Meal Prep"
+            class="img-fluid"
+            src="Sm3.jpg"
+          />
+          <div
+            class="sm-blog-text text-light"
+          >
+            <p
+              class="my-4"
+              role="paragraph"
+            >
+              journal
+            </p>
+            <h4>
+              Budget Planning for Meal Prep
+            </h4>
+            <a
+              href="#0"
+            >
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="subscription my-5 p-5"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="content text-lg-start text-center col-12 col-lg-6"
+          >
+            <h3>
+              Want to get weekly tips and tricks?
+            </h3>
+            <p
+              role="paragraph"
+            >
+              Sign up and receive your first email guide!
+            </p>
+          </div>
+          <div
+            class="sub align-items-center d-block d-lg-flex col-12 text-lg-end text-center col-lg-6"
+          >
+            <input
+              class="mb-4 mb-lg-0"
+              name="email"
+              placeholder="Your Email"
+              type="email"
+            />
+            <a
+              href="#0"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <h2
+          class="secondary mb-4"
+        >
+          Featured Posts 
+          <i
+            class="fa-solid fa-utensils"
+            style="color: rgb(135, 91, 140);"
+          />
+        </h2>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="How to Properly Cut and Prep Your Vegetables"
+                class="img-fluid"
+                src="Blog1.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Mike Jones
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      Jan 11, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       14
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       26
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  How to Properly Cut and Prep Your Vegetables
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="Travel to The Best Cuisine!"
+                class="img-fluid"
+                src="Blog2.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Noelle Single
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      Feb 09, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       10
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       18
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  Travel to The Best Cuisine!
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="Desserts, and Why They Are Necessary"
+                class="img-fluid"
+                src="Blog3.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Anderson Miller
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      Mar 18, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       34
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       40
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  Desserts, and Why They Are Necessary
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="Eating the Best Pre Workout Meal"
+                class="img-fluid"
+                src="Blog4.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Maya Smith
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      Apr 12, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       20
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       6
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  Eating the Best Pre Workout Meal
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="The Best Selling Cookbooks on the Market!"
+                class="img-fluid"
+                src="Blog5.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Mike Jones
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      May 11, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       35
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       14
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  The Best Selling Cookbooks on the Market!
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="Which Foods Help Your Hair Grow Healthy and Long?"
+                class="img-fluid"
+                src="Blog6.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Steve
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      June 7, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       14
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       26
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  Which Foods Help Your Hair Grow Healthy and Long?
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="Social Media and It's Affects On Your Mental Health"
+                class="img-fluid"
+                src="Blog7.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Anderson Miller
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      July 29, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       34
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       40
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  Social Media and It's Affects On Your Mental Health
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="How to Pick The Right Pepper For Your Meal"
+                class="img-fluid"
+                src="Blog8.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Jerry
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      Aug 12, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       35
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       46
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  How to Pick The Right Pepper For Your Meal
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4"
+        >
+          <div
+            class="blog-post"
+          >
+            <div
+              class="blog-post-thumb"
+            >
+              <img
+                alt="The Truth About Your Favorite Fruit"
+                class="img-fluid"
+                src="Blog9.jpg"
+              />
+            </div>
+            <div
+              class="mt-4"
+            >
+              <div
+                class="justify-content-between align-items-center d-flex"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-author"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      By Noelle Single
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-date"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      Sept 20, 2022
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="blog-post-fav"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-heart-o"
+                      />
+                       14
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-comments"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-comment-o"
+                      />
+                       26
+                    </a>
+                  </div>
+                  <div
+                    class="blog-post-share"
+                  >
+                    <a
+                      href="#0"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="fa fa-share-alt"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="blog-post-headline"
+                href="#0"
+              >
+                <h4>
+                  The Truth About Your Favorite Fruit
+                </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

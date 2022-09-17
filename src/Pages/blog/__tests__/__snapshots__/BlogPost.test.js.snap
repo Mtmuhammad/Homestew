@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="col-12 col-md-6 col-lg-4"
+  >
+    <div
+      class="blog-post"
+    >
+      <div
+        class="blog-post-thumb"
+      >
+        <img
+          alt="How to Properly Cut and Prep Your Vegetables"
+          class="img-fluid"
+          src="Blog1.jpg"
+        />
+      </div>
+      <div
+        class="mt-4"
+      >
+        <div
+          class="justify-content-between align-items-center d-flex"
+        >
+          <div
+            class="d-flex"
+          >
+            <div
+              class="blog-post-author"
+            >
+              <a
+                href="#0"
+              >
+                By Mike Jones
+              </a>
+            </div>
+            <div
+              class="blog-post-date"
+            >
+              <a
+                href="#0"
+              >
+                Jan 11, 2022
+              </a>
+            </div>
+          </div>
+          <div
+            class="d-flex"
+          >
+            <div
+              class="blog-post-fav"
+            >
+              <a
+                href="#0"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa fa-heart-o"
+                />
+                 14
+              </a>
+            </div>
+            <div
+              class="blog-post-comments"
+            >
+              <a
+                href="#0"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa fa-comment-o"
+                />
+                 26
+              </a>
+            </div>
+            <div
+              class="blog-post-share"
+            >
+              <a
+                href="#0"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa fa-share-alt"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <a
+          class="blog-post-headline"
+          href="#0"
+        >
+          <h4>
+            How to Properly Cut and Prep Your Vegetables
+          </h4>
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

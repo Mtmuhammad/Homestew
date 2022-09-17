@@ -1,0 +1,57 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.blog-post {
+  margin-bottom: 6rem;
+
+  & img {
+    border-radius: 5px;
+  }
+
+  & h4 {
+    margin: 10px 0;
+    font-size: 3rem;
+    transition: all 0.3s;
+  }
+  &-author {
+    & a {
+      margin-right: 30px;
+      position: relative;
+      z-index: 1;
+      font-size: 1.4rem;
+      color: $blog-grey;
+
+      &:hover {
+        color: $primary-font;
+      }
+
+      &:after {
+        width: 2px;
+        height: 60%;
+        content: "";
+        position: absolute;
+        top: 20%;
+        right: -14px;
+        z-index: 2;
+        background-color: $blog-grey;
+      }
+    }
+  }
+
+  &-date a,
+  .blog-post-share a {
+    color: $blog-grey;
+    font-size: 1.4rem;
+  }
+
+  &-fav a,
+  .blog-post-comments a {
+    color: $blog-grey;
+    margin-right: 15px;
+    font-size: 1.4rem;
+  }
+
+  &-headline {
+    color: $primary-font;
+  }
+}
