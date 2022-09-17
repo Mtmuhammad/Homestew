@@ -1,0 +1,42 @@
+@use "../../../Styles/abstracts/mixins" as *;
+@use "../../../Styles/abstracts/variables" as *;
+
+.diet {
+  & .fa-utensils {
+    color: $tertiary-color;
+    font-size: 3.8rem;
+    margin-left: 1rem;
+  }
+
+  & img {
+    height: 50rem !important;
+    border-radius: 5px;
+
+    @include respond(phone) {
+      height: 40rem !important;
+    }
+    @include respond(sphone) {
+      height: 30rem !important;
+    }
+  }
+
+  &-post {
+    margin-bottom: 5rem;
+  }
+
+  &-content {
+    text-align: center;
+    & h2 {
+      font-size: 3.5rem;
+      letter-spacing: 1px;
+      margin: 2rem 0;
+      color: $primary-green;
+    }
+
+    & p {
+      line-height: 1.7;
+      font-weight: 400;
+      font-size: 1.8rem;
+    }
+  }
+}

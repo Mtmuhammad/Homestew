@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="diet container mt-5"
+    style="max-width: 1100px;"
+  >
+    <div
+      class="container"
+    >
+      <h2
+        class="secondary mb-4"
+      >
+        Special Diets 
+        <i
+          class="fa-solid fa-utensils"
+        />
+      </h2>
+      <div
+        class="row"
+      >
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Gluten Free"
+                class="img-fluid"
+                src="glutenFree.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Gluten Free
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                A gluten-free diet is an eating plan that excludes foods containing gluten and is essential for managing signs and symptoms of celiac disease and other medical conditions associated with gluten.. Gluten is a protein found in wheat, barley, rye and triticale (a cross between wheat and rye).
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Ketogenic"
+                class="img-fluid"
+                src="ketogenic.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Ketogenic
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                “Ketogenic” is a term for a low-carb diet (like the Atkins diet). The idea is for you to get more calories from protein and fat and less from carbohydrates. You cut back most on the carbs that are easy to digest, like sugar, soda, pastries, and white bread.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Vegetarian"
+                class="img-fluid"
+                src="vegetarian.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Vegetarian
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                Vegetarian diets contain various levels of fruits, vegetables, grains, pulses, nuts and seeds. The inclusion of dairy and eggs depends on the type of diet you follow.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Lacto-Vegetarian"
+                class="img-fluid"
+                src="lactoVegetarian.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Lacto-Vegetarian
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                The lacto-vegetarian diet is a type of vegetarianism that excludes meat, poultry, seafood, and eggs, but includes dairy products. People may choose to adopt a lacto-vegetarian diet for environmental, ethical, or health reasons.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Ovo-Vegetarian"
+                class="img-fluid"
+                src="ovoVegetarian.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Ovo-Vegetarian
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                An ovo-vegetarian diet can include all fruits, vegetables, squashes, legumes, beans, and grains such as rice, quinoa, and barley; all seeds, spices and fresh herbs, eggs and products containing eggs such as egg whites, mayonnaise, egg noodles and some baked goods.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Vegan"
+                class="img-fluid"
+                src="vegan.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Vegan
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                Veganism is the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Pescetarian"
+                class="img-fluid"
+                src="pescetarian.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Pescetarian
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                In the pescatarian diet, a person’s main source of animal protein comes from fish and other seafood, such as shrimp. Eating a diet consisting mainly of plant-based foods has a variety of health benefits, which the addition of fish and fish products may enhance.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Paleo"
+                class="img-fluid"
+                src="paleo.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Paleo
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                A paleo diet typically includes lean meats, fish, fruits, vegetables, nuts and seeds — foods that in the past could be obtained by hunting and gathering. A paleo diet limits foods that became common when farming emerged about 10,000 years ago. These foods include dairy products, legumes and grains.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Primal"
+                class="img-fluid"
+                src="primal.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Primal
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                The Primal Diet is an eating pattern that’s high in protein and fat, low in carbs, and designed to closely resemble the presumed diet of early humans.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-lg-4 mb-5"
+        >
+          <article
+            class="text-center diet-post"
+          >
+            <div
+              class="diet-img"
+            >
+              <img
+                alt="Whole 30"
+                class="img-fluid"
+                src="whole30.jpg"
+              />
+            </div>
+            <div
+              class="diet-content"
+            >
+              <h2>
+                Whole 30
+              </h2>
+              <p
+                class="px-5 px-md-3"
+              >
+                The Whole30 diet is a month-long clean-eating program that promises a variety of health and emotional benefits. The diet focuses on the idea that certain food groups may negatively affect your health and fitness.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
