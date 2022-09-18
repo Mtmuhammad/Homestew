@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-5 container"
+  >
+    <h2
+      class="h1 text-center mb-3"
+    >
+      What are you in the mood for?
+    </h2>
+    <div
+      class="row height d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="col-md-8"
+      >
+        <div
+          class="search text-center"
+        >
+          <i
+            class="fa fa-search"
+          />
+          <input
+            class="form-control"
+            id="text-input"
+            name="query"
+            placeholder="Search by keyword"
+            type="text"
+          />
+          <button
+            class="search-button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+      id="recipe-row"
+    >
+      <div
+        class="spinner-container"
+      >
+        <div
+          class="loading-spinner"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
