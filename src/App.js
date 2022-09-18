@@ -11,6 +11,8 @@ import RecipeType from "./Pages/type/RecipeType";
 import Diets from "./Pages/diets/Diets";
 import Blog from "./Pages/blog/Blog";
 import Contact from "./Pages/contact/Contact";
+import PageNotFound from "./Pages/404/PageNotFound";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
         <Route path="search" element={<Recipes />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
+      <ScrollToTop width="28" height="28" color="white" style={{borderRadius: "10px",backgroundColor: "#a8ba9a"}} smooth/>
       <Footer/>
     </>
   );

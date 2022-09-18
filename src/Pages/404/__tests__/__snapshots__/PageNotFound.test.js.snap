@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    id="notfound"
+  >
+    <div
+      class="notfound"
+    >
+      <div
+        class="notfound-404"
+      >
+        <h3>
+          Oops! Page not found
+        </h3>
+        <h1>
+          <span
+            data-testid="span"
+          >
+            4
+          </span>
+          <span
+            data-testid="span"
+          >
+            0
+          </span>
+          <span
+            data-testid="span"
+          >
+            4
+          </span>
+        </h1>
+      </div>
+      <h2>
+        we are sorry, but the page you requested was not found
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;
