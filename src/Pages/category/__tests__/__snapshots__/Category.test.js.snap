@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke and snapshot tests should match snapshot 1`] = `
+<DocumentFragment>
+  <h3
+    class="tertiary"
+    style="margin-bottom: 2rem;"
+  >
+    spanish recipes 
+    <i
+      class="fa-solid fa-utensils"
+      style="color: rgb(135, 91, 140); font-size: 3rem;"
+    />
+  </h3>
+  <div
+    class="row"
+  >
+    <div
+      class="spinner-container"
+    >
+      <div
+        class="loading-spinner"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

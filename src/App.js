@@ -6,6 +6,8 @@ import Home from "./Pages/home/Home";
 import About from "./Pages/about/About";
 import Recipes from "./Pages/recipes/Recipes";
 import SingleRecipe from "./Pages/singleRecipe/SingleRecipe";
+import RecipeCategory from "./Pages/category/RecipeCategory";
+import RecipeType from "./Pages/type/RecipeType";
 import Diets from "./Pages/diets/Diets";
 import Blog from "./Pages/blog/Blog";
 import Contact from "./Pages/contact/Contact";
@@ -21,6 +23,8 @@ function App() {
         <Route path="diets" element={<Diets />} />
         <Route path="recipes">
           <Route path=":id" element={<SingleRecipe />} />
+          <Route path="category/:category" element={<RecipeCategory />} />
+          <Route path="type/:type" element={<RecipeType />} />
         </Route>
         <Route path="search" element={<Recipes />} />
         <Route path="blog" element={<Blog />} />
