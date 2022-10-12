@@ -28,7 +28,7 @@ const SearchBar = () => {
         client
           .get("random", {
             params: {
-              apiKey: process.env.REACT_APP_API_KEY,
+              apiKey: process.env.REACT_APP_API_KEY4,
               number: 56,
             },
           })
@@ -81,7 +81,7 @@ const SearchBar = () => {
         .get("complexSearch", {
           params: {
             query,
-            apiKey: process.env.REACT_APP_API_KEY3,
+            apiKey: process.env.REACT_APP_API_KEY4,
             number: 28,
             offset,
           },
