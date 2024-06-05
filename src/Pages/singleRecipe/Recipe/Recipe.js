@@ -35,6 +35,7 @@ const Recipe = ({ id }) => {
         .get(`${id}/information`, {
           params: {
             apiKey: process.env.REACT_APP_API_KEY3,
+            addWinePairing: true
           },
         })
         .then(function (res) {
